@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.0 (swiftlang-700.0.59 clang-700.0.72)"
+options: "c8197e9ba2874b6e5f96f5ca1965e4b1"
+build_time: [497521398, 649632000]
+inputs: 
+	"/Users/ym3215/work/LikeAppStoreApp/LikeAppStoreApp/LikeAppStoreApp/AppDelegate.swift": [497521396, 0]
+	"/Users/ym3215/work/LikeAppStoreApp/LikeAppStoreApp/LikeAppStoreApp/ViewController.swift": [497521396, 0]
