@@ -7,4 +7,4 @@ This has been achieved by a combination of UITableView and UICollectionView.
 Complete image is as follows.
 
 
-![](http://g.recordit.co/A6nVqOL4Qh.gif)
+![](http://g.recordit.co/VI0VdSF0Jk.gif)
