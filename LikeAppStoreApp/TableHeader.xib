@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="TableHeader" id="rHX-Rr-FiB" customClass="TableHeader" customModule="LikeAppStoreApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="syD-2S-Dph">
+                    <rect key="frame" x="27" y="8" width="300" height="21"/>
+                    <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="16"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i5v-Cm-5Em">
+                    <rect key="frame" x="546" y="8" width="30" height="21"/>
+                    <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="14"/>
+                    <state key="normal" title="一覧"/>
+                    <connections>
+                        <action selector="viewMagazineBacknumber:" destination="rHX-Rr-FiB" eventType="touchUpInside" id="jb6-Ln-Fav"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="syD-2S-Dph" firstAttribute="leading" secondItem="rHX-Rr-FiB" secondAttribute="leading" constant="8" id="0we-Vr-P8v"/>
+                <constraint firstItem="i5v-Cm-5Em" firstAttribute="top" secondItem="rHX-Rr-FiB" secondAttribute="top" constant="8" id="Udo-Ut-cMK"/>
+                <constraint firstAttribute="trailing" secondItem="i5v-Cm-5Em" secondAttribute="trailing" constant="8" id="vPN-Zl-sAh"/>
+                <constraint firstItem="syD-2S-Dph" firstAttribute="top" secondItem="rHX-Rr-FiB" secondAttribute="top" constant="8" id="yF9-94-LOH"/>
+            </constraints>
+            <connections>
+                <outlet property="name" destination="syD-2S-Dph" id="6xg-7p-onP"/>
+                <outlet property="toListButton" destination="i5v-Cm-5Em" id="C8X-H7-uVB"/>
+            </connections>
+            <point key="canvasLocation" x="346" y="555"/>
+        </view>
+    </objects>
+</document>

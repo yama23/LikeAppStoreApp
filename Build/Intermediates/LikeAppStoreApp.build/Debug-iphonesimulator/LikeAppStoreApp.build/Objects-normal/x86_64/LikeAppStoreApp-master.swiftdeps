@@ -1,6 +1,12 @@
-version: "Apple Swift version 2.0 (swiftlang-700.0.59 clang-700.0.72)"
-options: "c8197e9ba2874b6e5f96f5ca1965e4b1"
-build_time: [497521398, 649632000]
-inputs: 
-	"/Users/ym3215/work/LikeAppStoreApp/LikeAppStoreApp/LikeAppStoreApp/AppDelegate.swift": [497521396, 0]
-	"/Users/ym3215/work/LikeAppStoreApp/LikeAppStoreApp/LikeAppStoreApp/ViewController.swift": [497521396, 0]
+version: "Apple Swift version 2.1 (swiftlang-700.1.101.6 clang-700.1.76)"
+options: "5d4acc885eb248873b28ce734b1c1259"
+build_time: [501151370, 707572000]
+inputs:
+  "/Users/ym3215/work/LikeAppStoreApp/LikeAppStoreApp/TableHeader.swift": [498732874, 0]
+  "/Users/ym3215/work/LikeAppStoreApp/LikeAppStoreApp/CollectionDataList.swift": [498732776, 0]
+  "/Users/ym3215/work/LikeAppStoreApp/LikeAppStoreApp/TableDataList.swift": [498732762, 0]
+  "/Users/ym3215/work/LikeAppStoreApp/LikeAppStoreApp/CollectionCell.swift": [501151368, 0]
+  "/Users/ym3215/work/LikeAppStoreApp/LikeAppStoreApp/ViewController.swift": [501151202, 0]
+  "/Users/ym3215/work/LikeAppStoreApp/LikeAppStoreApp/CollectionView.swift": [498733429, 0]
+  "/Users/ym3215/work/LikeAppStoreApp/LikeAppStoreApp/AppDelegate.swift": [497521396, 0]
+  "/Users/ym3215/work/LikeAppStoreApp/LikeAppStoreApp/TableCell.swift": [498732784, 0]
