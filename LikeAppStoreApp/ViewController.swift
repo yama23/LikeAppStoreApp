@@ -21,7 +21,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         for (var i=0; i<10; ++i){
             let childArray:NSMutableArray = []
             for (var j=0; j<10; ++j){
-                let childDic: NSDictionary = NSDictionary(dictionary: ["title": "サブタイトル\(j+1)", "thumbnail_path": "prin_nobi"])
+                let childDic: NSDictionary = NSDictionary(dictionary: ["title": "サブタイトル\(j+1)", "thumbnail_path": "pudding"])
                 childArray.addObject(childDic)
             }
             let dic: NSDictionary = NSDictionary(dictionary: ["title": "タイトル\(i+1)", "collections": childArray])

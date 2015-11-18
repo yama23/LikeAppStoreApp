@@ -21,7 +21,7 @@
 		665027261BC50EDC00892F45 /* TableHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6650271F1BC50EDC00892F45 /* TableHeader.xib */; };
 		6650272A1BC512A400892F45 /* CollectionDataList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665027281BC512A400892F45 /* CollectionDataList.swift */; };
 		6650272B1BC512A400892F45 /* TableDataList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665027291BC512A400892F45 /* TableDataList.swift */; };
-		666B61CD1BFC70D700168D1A /* prin_nobi.png in Resources */ = {isa = PBXBuildFile; fileRef = 666B61CC1BFC70D700168D1A /* prin_nobi.png */; };
+		666B61D31BFC818100168D1A /* pudding.png in Resources */ = {isa = PBXBuildFile; fileRef = 666B61D21BFC818100168D1A /* pudding.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +41,7 @@
 		6650271F1BC50EDC00892F45 /* TableHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableHeader.xib; sourceTree = "<group>"; };
 		665027281BC512A400892F45 /* CollectionDataList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionDataList.swift; sourceTree = "<group>"; };
 		665027291BC512A400892F45 /* TableDataList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableDataList.swift; sourceTree = "<group>"; };
-		666B61CC1BFC70D700168D1A /* prin_nobi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = prin_nobi.png; path = Resources/prin_nobi.png; sourceTree = "<group>"; };
+		666B61D21BFC818100168D1A /* pudding.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pudding.png; path = Resources/pudding.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +113,7 @@
 		666B61CB1BFC707E00168D1A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				666B61CC1BFC70D700168D1A /* prin_nobi.png */,
+				666B61D21BFC818100168D1A /* pudding.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -176,10 +176,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				665027111BC50DF400892F45 /* LaunchScreen.storyboard in Resources */,
+				666B61D31BFC818100168D1A /* pudding.png in Resources */,
 				665027231BC50EDC00892F45 /* CollectionView.xib in Resources */,
 				6650270E1BC50DF400892F45 /* Assets.xcassets in Resources */,
 				6650270C1BC50DF400892F45 /* Main.storyboard in Resources */,
-				666B61CD1BFC70D700168D1A /* prin_nobi.png in Resources */,
 				665027211BC50EDC00892F45 /* CollectionCell.xib in Resources */,
 				665027261BC50EDC00892F45 /* TableHeader.xib in Resources */,
 			);
