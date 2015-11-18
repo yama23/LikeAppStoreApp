@@ -1,6 +1,6 @@
 # LikeAppStoreApp
 
-This is, as in the AppStore app, you can content horizontal scrolling.
+This is like the AppStore app, you can content horizontal scrolling.
 
 This has been achieved by a combination of UITableView and UICollectionView.
 
